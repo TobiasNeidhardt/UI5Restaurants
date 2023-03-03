@@ -1,0 +1,19 @@
+<mvc:View controllerName="com.myorg.UI5Exercise.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" height="100%">
+    <Page id="MainView" title="{i18n>title}" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="false">
+        <headerContent>
+            <Button icon="sap-icon://information" tooltip="App info" press="onPress" />
+        </headerContent>
+
+        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>header1}" subheader="{i18n>subheader1}" press="onPressList">
+            <TileContent footer="{i18n>footer1}">
+                <ImageContent src="sap-icon://notes" />
+            </TileContent>
+        </GenericTile>
+
+        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>header2}" subheader="{i18n>subheader2}" press="onPressRandom">
+            <TileContent footer="{i18n>footer2}">
+                <ImageContent src="sap-icon://mirrored-task-circle" />
+            </TileContent>
+        </GenericTile>
+    </Page>
+</mvc:View>

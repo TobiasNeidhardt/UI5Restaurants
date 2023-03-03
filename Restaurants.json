@@ -1,0 +1,112 @@
+{
+  "Restaurants": [
+    {
+      "id": 1,
+      "Name": "Pasta E Olio",
+      "Description": "Italienisch",
+      "Duration": 30,
+      "Closed": "",
+      "OpeningTime": "11:00",
+      "Link": "https://www.pastaeolio.de/"
+    },
+    {
+      "id": 2,
+      "Name": "Kebab",
+      "Description": "Orientalisch",
+      "Duration": 20,
+      "Closed": "Mittwoch",
+      "OpeningTime": "11:30",
+      "Link": "https://www.orient-kebab-wuerzburg.de/"
+    },
+    {
+      "id": 3,
+      "Name": "Baran Döner",
+      "Description": "Döner",
+      "Duration": 30,
+      "Closed": "",
+      "OpeningTime": "11:00",
+      "Link": "https://www.google.com/maps/place/Baran+D%C3%B6ner/@49.7972587,9.9342283,19z/data=!4m6!3m5!1s0x47a2919f8b0d151f:0xc13f97ca69fd25a8!8m2!3d49.7969456!4d9.9338689!16s%2Fg%2F11t7c36glc"
+    },
+    {
+      "id": 4,
+      "Name": "Grieche Hubland",
+      "Description": "Griechisch",
+      "Duration": 30,
+      "Closed": "",
+      "OpeningTime": "11:00",
+      "Link": "https://restaurant-hubland.de/"
+    },
+    {
+      "id": 5,
+      "Name": "Sumo Sushi 2",
+      "Description": "Asiatisch",
+      "Duration": 20,
+      "Closed": "",
+      "OpeningTime": "11:00",
+      "Link": "https://sumosushi2.de/"
+    },
+    {
+      "id": 6,
+      "Name": "Pizzamore",
+      "Description": "Italienisch",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "11:00",
+      "Link": "https://www.pizzamore-wuerzburg.de/"
+    },
+    {
+      "id": 7,
+      "Name": "Kadöffl",
+      "Description": "Deutsch",
+      "Duration": 30,
+      "Closed": "",
+      "OpeningTime": "11:30",
+      "Link": "https://www.google.com/maps/place/KAD%C3%96FFL/@49.7953043,9.9320904,19z/data=!4m15!1m8!2m7!1sRestaurants!3m5!2sEichhornstra%C3%9Fe!3s0x47a29033ab3a550b:0xd8edc2c062930768!4m2!1d9.9334328!2d49.7954723!3m5!1s0x47a29165295974e1:0xdab0672b98f28a28!8m2!3d49.7950309!4d9.9320698!16s%2Fg%2F11fsn5mt1b"
+    },
+    {
+      "id": 8,
+      "Name": "Pepe in Roma",
+      "Description": "Italienisch",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "11:00",
+      "Link": "https://www.pepeinroma.de/"
+    },
+    {
+      "id": 9,
+      "Name": "Hotvolee",
+      "Description": "Burger",
+      "Duration": 25,
+      "Closed": "Monday",
+      "OpeningTime": "11:30",
+      "Link": "https://hotvolee.cooking/"
+    },
+    {
+      "id": 10,
+      "Name": "Bangkok",
+      "Description": "Asiatisch",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "11:30",
+      "Link": "https://www.google.com/maps?q=Bangkok+W%C3%BCrzburg&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjw2MT_uL_9AhUStKQKHQtnDn4Q_AUoAXoECAEQAw"
+    },
+    {
+      "id": 11,
+      "Name": "Vrohstoff",
+      "Description": "Vegetarisch",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "10:00",
+      "Link": "https://vrohstoff.de/"
+    },
+    {
+      "id": 12,
+      "Name": "Kullmanns",
+      "Description": "Burger",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "11:30",
+      "Link": "https://www.kullmans.de/"
+    }
+  ]
+}

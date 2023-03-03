@@ -1,0 +1,131 @@
+{
+  "_version": "1.42.0",
+  "sap.app": {
+    "dataSources": {
+      "restaurantSource": {
+        "type": "JSON",
+        "uri": "./localService/restaurants.json"
+      }
+    },
+    "id": "com.myorg.UI5Exercise",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap-ux/fiori-freestyle-writer:basic",
+      "version": "0.14.9"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.102.0",
+      "libs": {
+        "sap.m": {},
+        "sap.f": {},
+        "sap.ui.layout": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "com.myorg.UI5Exercise.i18n.i18n"
+        }
+      },
+      "restaurant": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "Restaurants.json"
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "async": true,
+        "viewPath": "com.myorg.UI5Exercise.view",
+        "controlAggregation": "pages",
+        "controlId": "app"
+      },
+      "routes": [
+        {
+          "name": "MainView",
+          "pattern": "",
+          "target": "MainView"
+        },
+        {
+          "name": "RestaurantList",
+          "pattern": "RestaurantList",
+          "target": "RestaurantList"
+        },
+        {
+          "name": "RandomRestaurantPicker",
+          "pattern": "RandomRestaurantPicker",
+          "target": "RandomRestaurantPicker"
+        },
+        {
+          "name": "DetailView",
+          "pattern": "DetailView/{restaurantPath}",  
+          "target": "DetailView"
+        }
+      ],
+      "targets": {
+        "MainView": {
+          "viewId": "MainView",
+          "viewName": "MainView"
+        },
+        "RestaurantList": {
+          "viewId": "RestaurantList",
+          "viewName": "RestaurantList"
+        },
+        "RandomRestaurantPicker": {
+          "viewId": "RandomRestaurantPicker",
+          "viewName": "RandomRestaurantPicker"
+        },
+        "DetailView": {
+          "viewId": "DetailView",
+          "viewName": "DetailView"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "com.myorg.UI5Exercise.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "app"
+    }
+  }
+}

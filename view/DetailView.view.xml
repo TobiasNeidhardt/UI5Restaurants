@@ -1,0 +1,19 @@
+<mvc:View controllerName="com.myorg.UI5Exercise.controller.DetailView" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" height="100%">
+    <Page title="{restaurant>Name}" showNavButton="true" navButtonPress=".onNavBack">
+        <l:VerticalLayout class="sapUiContentPadding" width="100%">
+            <l:content>
+                <Label text="Restaurant Name:" design="Bold" class="sapUiSmallMarginTop" />
+                <ObjectAttribute text="{restaurant>Name}" />
+
+                <Label text="Beschreibung:" design="Bold" class="sapUiSmallMarginTop" />
+                <ObjectAttribute text="{restaurant>Description}" />
+
+                <Label text="Hinweg:" design="Bold" class="sapUiSmallMarginTop" />
+                <ObjectAttribute text="{restaurant>Duration} Minuten" />
+
+                <Label text="Homepage:" design="Bold" class="sapUiSmallMarginTop" />
+                <Link text="{restaurant>Name}" target="_blank" href="{restaurant>Link}" />
+            </l:content>
+        </l:VerticalLayout>
+    </Page>
+</mvc:View>
